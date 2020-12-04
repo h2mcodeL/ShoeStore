@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="username_id">User Name</string>
+    <string name="username_hint">User Name:</string>
+    <string name="password_id">Password</string>
+    <string name="password_hint">Password</string>
+    <string name="loginsuccess">Hello and welcome. You have logged in successfully!</string>
+    <string name="loginfailure">Youre login has failed</string>
+
+    <string name="success_text_value">You have logged in successfully.
+        Thank you for logging into the show store.</string>
+
+    <string name="failure_text_value">You have not logged in successfully.
+        Please contact us with youre current email address.</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+
+
+    <string name="hello_blank_fragment">Add a new shoe</string>
+    <string name="loginfailbtn">Try Again</string>
+    <string name="welcome_text">Thank you for using our app. Click the button below to check out some amazing shoes in store</string>
+    <string name="shoe_instruction">
+        This application presents a list of shoes that you may have stacked on you\'re shoe rack.
+        The home screen shows a list of shoes, presented in a scrollview.
+        You can add new shoes by clicking the plus button at the bottom of the screen.
+
+    </string>
+    <string name="instructions_title">Shoe Store</string>
+    <string name="intro_button">Enter Store</string>
+    <string name="landing_img">landingimage</string>
+    <string name="btnText">Go to shoes</string>
+    <string name="menu_item_1">About</string>
+    <string name="menu_item_2">Information</string>
+    <string name="about_fragment">About</string>
+    <string name="about_in"><b>Clancys ShoeList App:\nVersion 1:\nDevelopment Date:</b> 2020-11-01\n\n
+        Clancys Shoe Store. This app is the one stop shop for storing all of youre dearly loved shoe purchases.
+        </string>
+    <string name="sboutshoes">Information about shoes</string>
+    <string name="aboutShoes">About Shoes</string>
+    <string name="shoename">Shoe Name:</string>
+    <string name="companyname">Company Name:</string>
+    <string name="shoesize">Shoe Size:</string>
+    <string name="desc">Description:</string>
+    <string name="shoenamehint">Shoe Name:</string>
+    <string name="companynamehint">Shoe Manufacturer</string>
+    <string name="shoesizehint">Shoe Size:</string>
+    <string name="deschint">Shoe Description:</string>
+    <string name="savebtn">Save Item</string>
+    <string name="cancelbtn">Cancel</string>
+
+    <string name="contentdesc"> Floating Action Button links to the shoe detail fragment</string>
+
+    <string name="shoelist_title_text">List of Shoes</string>
+    <string name="new_shoe_button_content_desc">New Shoe Button</string>
+    <string name="logouttitle">Logout</string>
+
+
+</resources>
