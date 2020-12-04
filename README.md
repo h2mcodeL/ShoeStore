@@ -1,7 +1,7 @@
 # ShoeStore
 Kotlin Nanodegree Shoe Listing Application
 
-#This app uses many of the recent constructs in Android (Kotlin) including:
+This app uses many of the recent constructs in Android (Kotlin) including:
 - Databinding
 - Life Cycle Observer 
 - Navigation Graph
