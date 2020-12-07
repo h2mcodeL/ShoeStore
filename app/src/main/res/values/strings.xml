@@ -56,3 +56,42 @@
 
 
 </resources>
+
+<!-- Comments on the selected view layouts
+
+activity_main: This layout is wrapped in a DrawerLayout widget, which supports the draw out menu.
+LinearLayout provides a simple placeholder for the main login fragment.
+There is no requirements for a complex layout.
+
+fragment_about: This layout is a simple vertically biased view using LinearLayout which works well for this
+type of layout. It holds the 2no textviews.
+
+fragment_instruction / fragment_login_success:
+These layouts uses constraintlayout. LinearLayout could have been used, however the
+additional view items image, button/s would lead to deeper nesting of views with LinearLayouts useds within Linearlayouts.
+ConstraintLayout is better suited as the layout can be arranged freely and adapt to suit the screen size
+of the device.
+
+fragment_shoe_detail:
+This layout has quite a number of views. Constraint layout is best suited and provides greater flexibility
+to enable a fluid layout.
+
+fragment_shoe_list:
+This layout holds the dynamic shoelist. The LinearLayout and Scroll view are used as required to enable the generation of
+textviews for each added shoe, and scrolling as the list grows. The overall layout is wrapped in a constraintLayout
+to support flexible positioning of the FloatingActionButton and other additional views.
+
+login_main:
+We create the loginLayout which is the first view shown in the app
+ConstraintLayout is used here to enable a flexible login screen. LinearLayout (vertical) could be used
+however ConstraintLayout is used to avoid the required nesting of LinearLayouts view to present the horizontal items (i.e. buttons).
+
+nav_header:
+This layout uses a constraint layout which would adapt nicely with a variety of screen sizes.
+The constraints also balance the view nicely.
+
+shoe_layout:
+This view holds the layout for a single shoe. Linearlayout (horizontal) is used as this is a straight forward horizontal
+set of textviews for each of the shoe items. This works nicely as we simply use the layout weight for spacing.
+
+-->

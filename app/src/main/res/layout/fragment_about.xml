@@ -31,8 +31,8 @@
             style="@style/LoginSuccess"
             android:textSize="14sp"
             android:text="@string/about_in" />
-
-
     </LinearLayout>
 
 </layout>
+
+    <!-- Refer to string.xml file for comments on xml layouts types -->

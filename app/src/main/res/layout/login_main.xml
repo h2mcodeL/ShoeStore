@@ -103,6 +103,4 @@
 
 </layout>
 
-    <!-- we create the loginLayout, to be used as the first view on the screen
-    remember to add <layout> tags for DataBinding. Also the xml file name is used when referencing for DataBinding
-    i.e. this file is login_main for DataBinding we use LoginMainBinding -->
+    <!-- Refer to string.xml file for comments on xml layouts types -->
