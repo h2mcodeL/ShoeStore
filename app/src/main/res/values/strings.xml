@@ -32,8 +32,8 @@
     <string name="menu_item_1">About</string>
     <string name="menu_item_2">Information</string>
     <string name="about_fragment">About</string>
-    <string name="about_in"><b>Clancys ShoeList App:\nVersion 1:\nDevelopment Date:</b> 2020-11-01\n\n
-        Clancys Shoe Store. This app is the one stop shop for storing all of youre dearly loved shoe purchases.
+    <string name="about_in"><b>Clancys ShoeList App:\nVersion 1:\nDevelopment Date:</b> 2020-11-01
+        \n\nClancys Shoe Store. This app is the one stop shop for storing all of you\'re dearly loved shoe purchases.
         </string>
     <string name="sboutshoes">Information about shoes</string>
     <string name="aboutShoes">About Shoes</string>

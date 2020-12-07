@@ -3,12 +3,13 @@ package android.example.shoestorend.shoeitems
 import android.example.shoestorend.R
 import android.example.shoestorend.databinding.FragmentInstructionsBinding
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import androidx.navigation.ui.NavigationUI
 
 
 class FragmentInstructions : Fragment() {
@@ -31,19 +32,8 @@ class FragmentInstructions : Fragment() {
             view.findNavController().navigate(R.id.shoeList)
         }
 
-        //set up the options menu
-        setHasOptionsMenu(true)
         return binding.root
     }
 
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.logout, menu)
-        super.onCreateOptionsMenu(menu, inflater)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController()) ||
-                super.onOptionsItemSelected(item)
-    }
 
 }

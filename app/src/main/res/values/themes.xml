@@ -38,6 +38,12 @@
     <style name="ShoeButtons">
         <item name="android:textColor">#FFFFFF</item>
         <item name="backgroundTint">#227E26</item>
-
     </style>
+
+    <style name="ShoeAppTitles">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/general_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

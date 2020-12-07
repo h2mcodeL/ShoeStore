@@ -41,10 +41,10 @@ class ShoeDetail : Fragment() {
             listViewModel.resetNav()
         }
 
-        binding.saveitem.setOnClickListener {
-
-            listViewModel.add()
-        }
+        //This clickListener is now handled within the xml view via databinding
+//        binding.saveitem.setOnClickListener {
+//            listViewModel.add()
+//        }
 
         listViewModel.navigate.observe(viewLifecycleOwner, Observer { saved ->
             if (saved) {
